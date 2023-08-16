@@ -4,7 +4,7 @@ import "../index.css";
 export default function DolarCard(dolar: IDolar) {
   console.log(dolar);
   return (
-    <div className="bg-gray-900 rounded-lg p-4">
+    <div className="md:mb-1.5 lg:aspect-video bg-gray-900 rounded-lg p-4 ">
       <h2 className="text-2xl font-bold underline">{dolar.nombre}</h2>
       <div className="flex flex-row space-x-4 items-center">
         <div id="temp">

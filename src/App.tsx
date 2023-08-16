@@ -4,12 +4,10 @@ import RootLayout from "./components/RootLayout";
 import Home from "./pages/Home";
 import Convertidor from "./pages/Convertidor";
 import Calculadora from "./pages/Calculadora";
-// import { DolarProvider } from "./context/dolarContext";
 
 function App() {
   return (
     <>
-      {/* <DolarProvider> */}
       <BrowserRouter>
         <Routes>
           <Route element={<RootLayout />}>
@@ -20,7 +18,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      {/* </DolarProvider> */}
     </>
   );
 }
